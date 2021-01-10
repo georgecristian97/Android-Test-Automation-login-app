@@ -33,7 +33,7 @@ brew install android-platform-tools
 
 ​			javac -version
 
-​			:trollface: if error set env var for window:
+​			:trollface: if error set env var for :warning: ​windows:
 
 ​				-in explorer paste:
 
