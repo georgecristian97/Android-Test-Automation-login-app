@@ -28,7 +28,8 @@ class test_1(unittest.TestCase):
                 i.send_keys('company')
         self.driver.find_element_by_id('tn.qmed.login:id/buttonClick').click()
         self.driver.find_element_by_id('tn.qmed.login:id/declineButton').click()
-    def tearDown(self):
+
+        # if last test
         self.driver.quit()
 
 
