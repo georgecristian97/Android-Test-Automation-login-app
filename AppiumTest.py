@@ -7,8 +7,6 @@ class test_1(unittest.TestCase):
 
     def setUp(self):
 
-        #self.dc['appPackage'] = "com.experitest.ExperiBank"
-       # self.dc['appActivity'] = ".LoginActivity"
         self.dc['platformName'] = 'Android'
         self.dc['deviceName'] = 'emulator-5554'
         self.dc['platformVersion'] = '11'
