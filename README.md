@@ -11,7 +11,7 @@ Getting started:
 :warning:	mac  users, try adb devices if does not work then:
 
    -	Start Terminal
-     					command + spacebar, enter terminal and click terminal app
+          					command + spacebar, enter terminal and click terminal app
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -72,3 +72,19 @@ brew install android-platform-tools
 [Download PyCharm: Python IDE for Professional Developers by JetBrains](https://www.jetbrains.com/pycharm/download/#section=windows)
 
 pip install Appium-Python-Client
+
+
+
+Without configuring your pycharm you can right click on python file and run a test by having those in the file:
+
+```python
+import unittest
+class test_1(unittest.TestCase):
+  #.........
+  def testAnything(self):#any test should start with "test" 
+    #test code
+    
+if __name__ == '__main__':
+   unittest.main()
+```
+
