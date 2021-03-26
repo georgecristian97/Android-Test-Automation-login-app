@@ -1,0 +1,29 @@
+Name:	username and passord login bad		
+Setup: 	log in with bad credential		
+#	STEPS	Expected Result	
+1	click 'username' field	keyboard should appear	
+2	type the string 'abcdefg'	string to be the same as typed	
+3	click 'password' field	keyboard should appear	
+4	type the string 'abcdefg'	string legth to be the same as typed	
+5	press back	keybaord shoud dessapear	
+6	press log in 	popup should appear	
+7	press submit	popup should dessapear	
+			
+Name:	username and passord login correct		
+Setup: 	log in with correct credential		
+#	STEPS	Expected Result	
+1	click 'username' field	keyboard should appear	
+2	type the string 'abcdefg'	string to be the same as typed	
+3	click 'password' field	keyboard should appear	
+4	type the string 'abcdefg'	string legth to be the same as typed	
+5	press back	keyboard should dessapear	
+6	press log in 	popup should not appear	
+			
+Name:	username and passord login testing key input		
+Setup: 	log in with correct credential		
+#	STEPS	Expected Result	
+1	click 'username' field	keyboard should appear	
+2	"type the string '!@#$%^&*()_+{}[]'"",.;:/?|<>¨\'"	string to be the same as typed	
+3	click 'password' field	keyboard should appear	
+4	"type the string '!@#$%^&*()_+{}[]'"",.;:/?|<>¨\'"	string length to be the same as typed	
+5	press back	keyboard should dessapear	
